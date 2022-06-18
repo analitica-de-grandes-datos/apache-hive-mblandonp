@@ -3,12 +3,12 @@
 Pregunta
 ===========================================================================
 
-Escriba una consulta que retorne para cada valor único de la columna 't0.c2', 
-los valores correspondientes de la columna 't0.c1'. 
+Escriba una consulta que retorne para cada valor único de la columna t0.c2, 
+los valores correspondientes de la columna t0.c1. 
 
 Apache Hive se ejecutará en modo local (sin HDFS).
 
-Escriba el resultado a la carpeta 'output' de directorio de trabajo.
+Escriba el resultado a la carpeta output de directorio de trabajo.
 
 */
 DROP TABLE IF EXISTS tbl0; 
