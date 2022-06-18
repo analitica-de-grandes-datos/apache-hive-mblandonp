@@ -3,12 +3,12 @@
 Pregunta
 ===========================================================================
 
-Escriba una consulta que retorne para cada valor único de la columna `t0.c2`, 
-los valores correspondientes de la columna `t0.c1`. 
+Escriba una consulta que retorne para cada valor único de la columna 't0.c2', 
+los valores correspondientes de la columna 't0.c1'. 
 
 Apache Hive se ejecutará en modo local (sin HDFS).
 
-Escriba el resultado a la carpeta `output` de directorio de trabajo.
+Escriba el resultado a la carpeta 'output' de directorio de trabajo.
 
 */
 DROP TABLE IF EXISTS tbl0; 
@@ -29,7 +29,6 @@ LINES TERMINATED BY '\n';
 LOAD DATA LOCAL INPATH 'data0.csv' INTO TABLE tbl0; 
  
 CREATE TABLE word_count AS SELECT c2, c1 FROM tbl0; 
- 
  
 INSERT OVERWRITE LOCAL DIRECTORY './output' 
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' 
