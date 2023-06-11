@@ -8,7 +8,7 @@ columna 2 y clave de la columna 3
 
 Apache Hive se ejecutará en modo local (sin HDFS).
 
-Escriba el resultado a la carpeta `output` de directorio de trabajo.
+Escriba el resultado en la carpeta `output` de directorio de trabajo.
 
 */
 DROP TABLE IF EXISTS t0; 

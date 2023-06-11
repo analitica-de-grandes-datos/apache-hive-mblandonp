@@ -9,7 +9,7 @@ columna 3. En otras palabras, cuántos registros hay que tengan la clave
 
 Apache Hive se ejecutará en modo local (sin HDFS).
 
-Escriba el resultado a la carpeta `output` de directorio de trabajo.
+Escriba el resultado en la carpeta `output` de directorio de trabajo.
 
 */
 

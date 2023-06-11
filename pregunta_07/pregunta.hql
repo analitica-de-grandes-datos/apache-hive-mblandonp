@@ -8,7 +8,7 @@ los valores correspondientes de la columna t0.c1.
 
 Apache Hive se ejecutará en modo local (sin HDFS).
 
-Escriba el resultado a la carpeta output de directorio de trabajo.
+Escriba el resultado en la carpeta output de directorio de trabajo.
 
 */
 DROP TABLE IF EXISTS tbl0; 

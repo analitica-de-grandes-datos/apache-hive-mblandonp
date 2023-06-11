@@ -8,7 +8,7 @@ correspondiente de la columna tbl1.c4 para la columna tbl0.c2.
 
 Apache Hive se ejecutará en modo local (sin HDFS).
 
-Escriba el resultado a la carpeta output de directorio de trabajo.
+Escriba el resultado en la carpeta output de directorio de trabajo.
 
 */
   
